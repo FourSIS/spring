@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  一个bean对应一个需要通过IOC创建的对象，id是别名，class是相对于Java文件夹的路径  -->
+    <bean id="user" class="com.hsj.spring5.User"></bean>
+</beans>
